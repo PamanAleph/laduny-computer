@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React from "react";
 
-function Navbar() {
+function Header() {
   return (
-    <nav className="py-4 text-white">
-      <ul className="flex justify-between items-center max-w-7xl mx-auto">
+    <nav className="w-full px-8 py-4 text-white">
+      <ul className="w-5/6 flex justify-between items-center max-w-7xl mx-auto text-lg font-medium">
         <li>
           <Link href={"/"}>Home</Link>
         </li>
@@ -14,7 +14,7 @@ function Navbar() {
         <li>
           <Link href={"/"}>Consultation</Link>
         </li>
-        <li className="font-italiana text-5xl font-extralight">
+        <li className="font-italiana font-bold text-5xl">
           <Link href={"/"}>Pet Shop</Link>
         </li>
         <li>
@@ -35,4 +35,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
