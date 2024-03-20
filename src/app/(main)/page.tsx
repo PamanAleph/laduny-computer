@@ -26,6 +26,10 @@ function page() {
           />
         </h1>
       </div>
+
+      <div>
+        
+      </div>
     </div>
   );
 }
